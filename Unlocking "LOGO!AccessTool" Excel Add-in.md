@@ -4,7 +4,34 @@ The Add-in comes in .xlam format, XLAM is an Macro-Enabled Add-In file that is u
 Fortunately the Add-in file is just a compressed archive, so we can extract (unzip) all the underlying files, having done that we will see a structure as follows.
 
 ```bash
+.
+├── [Content_Types].xml
+├── _rels
+├── docProps
+│   ├── app.xml
+│   ├── core.xml
+│   └── custom.xml
+├── tree-md
+└── xl
+    ├── _rels
+    │   └── workbook.xml.rels
+    ├── printerSettings
+    │   ├── printerSettings1.bin
+    │   └── printerSettings2.bin
+    ├── sharedStrings.xml
+    ├── styles.xml
+    ├── theme
+    │   └── theme1.xml
+    ├── vbaProject.bin
+    ├── workbook.xml
+    └── worksheets
+        ├── _rels
+        │   ├── sheet1.xml.rels
+        │   └── sheet2.xml.rels
+        ├── sheet1.xml
+        └── sheet2.xml
 
+8 directories, 17 files
 ```
 
 
