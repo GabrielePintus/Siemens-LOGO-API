@@ -36,6 +36,8 @@ Fortunately the Add-in file is just a compressed archive, so we can extract (unz
 
 In order to bypass the protection we need to substitute the string "DPB" with "DPX" in the "vbaProject.bin" file. with a text editor (nano in our case).\
 ![screen1](https://user-images.githubusercontent.com/43523843/160244270-32ed0204-2e91-4539-8c45-f8a35d9da973.gif)\
-Then compress (zip) all the file to build a new Add-in file we are going to call "LOGO!AccessTool_unlocked.xlam". Double click on this one and Excel will open.
+Then compress (zip) all the file to build a new Add-in file we are going to call "LOGO!AccessTool_unlocked.xlam". Double click on this one and Excel will open, then open again the VBA Editor and double click on the Add-in.
+## Note
+This process worked for me on Windows 11 but not on Windows 10.
 
 
