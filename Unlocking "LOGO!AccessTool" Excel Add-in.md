@@ -34,4 +34,5 @@ Fortunately the Add-in file is just a compressed archive, so we can extract (unz
 8 directories, 17 files
 ```
 
+In order to bypass the protection we need to substitute the string "DPB" with "DPX" in the "xl/vbaProject.bin" file.
 
