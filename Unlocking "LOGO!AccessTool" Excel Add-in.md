@@ -35,5 +35,5 @@ Fortunately the Add-in file is just a compressed archive, so we can extract (unz
 ```
 
 In order to bypass the protection we need to substitute the string "DPB" with "DPX" in the "xl/vbaProject.bin" file. with a text editor (nano in our case).\
-![screen1](https://user-images.githubusercontent.com/43523843/160243405-4c9b3fe6-9eb1-40c0-8ff2-3b8748b38d19.gif)
+
 
